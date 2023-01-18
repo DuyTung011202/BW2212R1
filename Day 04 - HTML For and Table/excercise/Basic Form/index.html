@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+  </head>
+  <body>
+    <header></header>
+    <main
+      style="
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+      "
+    >
+      <form action="">
+        <fieldset>
+          <h1>Order Form</h1>
+          <h2>What would you like to buy?</h2>
+          <select>
+            <option value="A">A</option>
+            <option value="B">B (+ 0.5$)</option>
+            <option value="C">C (+ 0.5$)</option>
+          </select>
+          <h2>How many would you like to order?</h2>
+          <input type="radio" name="order" id="order_1" />
+          <label for="order_1"><b> 1 - $10</b></label>
+          <br />
+          <input type="radio" name="order" id="order_2" />
+          <label for="order_2"><b>2 - $20 </b></label>
+          <br />
+          <input type="radio" name="order" id="order_3" />
+          <label for="order_3"><b>3 - $25</b></label>
+          <br />
+          <h2>Name <span style="color: red">*</span></h2>
+          <input type="text" placeholder="FirstName" size="15" />
+          <input type="text" placeholder="LastName" size="15" />
+          <h2>Email</h2>
+          <input type="email" size="35" />
+          <h2>Phone Number</h2>
+          <input type="number" size="5" /> - <input type="number" size="5" /> -
+          <input type="number" size="5" />
+          <p><button type="submit">Submit</button></p>
+        </fieldset>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
