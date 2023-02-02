@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-body {
+    width: 600px;
+    height: 550px;
+    background-color: #FFFDA9;
+    padding:1px
+}
+
+.form-title {
+    background-color: #d4fdd6d7 ;
+    color: #0E3DFE;
+}
+
+td {
+    padding: 0 15px 25px 0;
+    color: #0E3DFE;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+label {
+    color: black;
+}

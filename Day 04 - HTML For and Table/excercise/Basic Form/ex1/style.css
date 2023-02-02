@@ -1,0 +1,27 @@
+
+main, .form-content {
+    display: flex;
+    justify-content: center;
+}
+
+.form-body {
+    width: 30%;
+    border: 30px solid #D5FEFF;
+}
+.form-title {
+    margin-top: 0;
+    text-align: center;
+    background-color: #FF4C00;
+    color: white;
+}
+.inputName, .inputEmail {
+    width: 201px;
+}
+
+.form-content {
+    color: #2039B4;
+}
+
+label {
+    color: #FF8A55;
+}
