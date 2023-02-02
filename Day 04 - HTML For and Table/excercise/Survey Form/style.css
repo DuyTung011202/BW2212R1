@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-level {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-header,.table-datacell{
+    padding: 10px;
+}
+
+.table-row:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
