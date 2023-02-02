@@ -1,0 +1,35 @@
+table {
+    border: 1px solid rgb(114, 114, 114);
+    text-align: center;
+    width: 90%;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 4px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px
+}
+
+.underline-row td {
+    border-bottom: 1px solid gray;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main table {
+    width: 45%;
+    height: 350px;
+    text-align: left;
+    float: left;
+}
+
+#article th {
+    vertical-align: middle;
+}
