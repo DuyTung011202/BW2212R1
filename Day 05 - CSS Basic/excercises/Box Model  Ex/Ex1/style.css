@@ -1,0 +1,13 @@
+ .box-content {
+    width: 300px;
+    padding: 110px 50px;
+    border: 50px solid #469A25;
+} 
+.content-text  {
+    font-size: 45px;
+    color:#4B9D2F ;
+    font-weight: 600;
+    background-color: #C5C5DB;
+    text-align: center;
+}
+
